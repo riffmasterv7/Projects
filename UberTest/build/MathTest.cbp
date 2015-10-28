@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MathTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\bin\gcc\MathTest" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\bin\gcc\" />
+				<Option object_output="..\obj\gcc\" />
+				<Option external_deps="..\bin\gcc\libMathd.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=core2" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="..\bin\gcc\libMathd.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="..\bin\gcc\MathTest" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\bin\gcc\" />
+				<Option object_output="..\obj\gcc\" />
+				<Option external_deps="..\bin\gcc\libMath.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=core2" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\bin\gcc\libMath.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="..\src\math\perf_counter.h" />
+		<Unit filename="..\src\math\test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

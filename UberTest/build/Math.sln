@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "Math.vcproj", "{5F0157F8-DD8A-4E70-B740-CB85B6528F2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test.vcproj", "{CDA18C3C-A694-4FD1-AF58-E1844274C86A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4B5755D-E645-4717-9124-AC09CCC4B6F0} = {D4B5755D-E645-4717-9124-AC09CCC4B6F0}
+		{5F0157F8-DD8A-4E70-B740-CB85B6528F2E} = {5F0157F8-DD8A-4E70-B740-CB85B6528F2E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Log", "Log.vcproj", "{D4B5755D-E645-4717-9124-AC09CCC4B6F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F0157F8-DD8A-4E70-B740-CB85B6528F2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F0157F8-DD8A-4E70-B740-CB85B6528F2E}.Debug|Win32.Build.0 = Debug|Win32
+		{5F0157F8-DD8A-4E70-B740-CB85B6528F2E}.Release|Win32.ActiveCfg = Release|Win32
+		{5F0157F8-DD8A-4E70-B740-CB85B6528F2E}.Release|Win32.Build.0 = Release|Win32
+		{CDA18C3C-A694-4FD1-AF58-E1844274C86A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDA18C3C-A694-4FD1-AF58-E1844274C86A}.Debug|Win32.Build.0 = Debug|Win32
+		{CDA18C3C-A694-4FD1-AF58-E1844274C86A}.Release|Win32.ActiveCfg = Release|Win32
+		{CDA18C3C-A694-4FD1-AF58-E1844274C86A}.Release|Win32.Build.0 = Release|Win32
+		{D4B5755D-E645-4717-9124-AC09CCC4B6F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4B5755D-E645-4717-9124-AC09CCC4B6F0}.Debug|Win32.Build.0 = Debug|Win32
+		{D4B5755D-E645-4717-9124-AC09CCC4B6F0}.Release|Win32.ActiveCfg = Release|Win32
+		{D4B5755D-E645-4717-9124-AC09CCC4B6F0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

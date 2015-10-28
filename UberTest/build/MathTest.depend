@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1312216218 source:w:\projects\ubertest\src\math\test.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../math_v7.h"
+	"perf_counter.h"
+
+1312130740 w:\projects\ubertest\src\math_v7.h
+	"types_v7.h"
+	<xmmintrin.h>
+	<emmintrin.h>
+
+1301595560 w:\projects\ubertest\src\types_v7.h
+
+1312216218 w:\projects\ubertest\src\math\perf_counter.h
+	<windows.h>
+	"../types_v7.h"
+

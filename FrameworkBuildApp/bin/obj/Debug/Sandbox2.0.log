@@ -1,0 +1,98 @@
+﻿Build started 27.07.2015 23:10:28.
+     1>Project "D:\Projects\Sandbox2.0\build\Sandbox2.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\include /I..\..\Redist\include\v7 /I..\..\Redist\include\gl /I..\..\UberTest\src\gfx /I..\..\Sandbox2.0\src\app_test /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _APP_TEST /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\bin\obj\Debug\\" /Fd"..\bin\obj\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\UberTest\src\gfx\CApplication.cpp ..\..\UberTest\src\gfx\CBuffer.cpp ..\..\UberTest\src\gfx\CDemo.cpp ..\..\UberTest\src\gfx\CGraphicsContext.cpp ..\..\UberTest\src\gfx\CPointVertexBuffer.cpp ..\..\UberTest\src\gfx\CWindow.cpp ..\..\UberTest\src\gfx\CWindowWINAPI.cpp ..\..\UberTest\src\gfx\egl.cpp ..\..\UberTest\src\gfx\gles.cpp ..\..\UberTest\src\gfx\CShaderPipeline.cpp ..\..\UberTest\src\gfx\EShaderType.cpp ..\src\app_test\camera.c ..\src\app_test\CCityDemo.cpp ..\src\app_test\main.c ..\src\app_test\model.c ..\src\app_test\pad.c ..\src\app_test\render.cpp ..\src\app_test\sphere_camera_control.c ..\..\UberTest\src\gfx\buffer.c
+         buffer.c
+         sphere_camera_control.c
+         render.cpp
+         pad.c
+         model.c
+     1>d:\projects\sandbox2.0\src\app_test\model.c(122): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\sandbox2.0\src\app_test\model.c(134): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\sandbox2.0\src\app_test\model.c(328): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\sandbox2.0\src\app_test\model.c(342): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\sandbox2.0\src\app_test\model.c(418): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\sandbox2.0\src\app_test\model.c(422): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\sandbox2.0\src\app_test\model.c(424): warning C4244: 'initializing' : conversion from 'float' to 'uint32', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(477): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(478): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(479): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(487): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(488): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(489): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(497): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(498): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(499): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(507): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(508): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\model.c(509): warning C4244: '=' : conversion from 'float' to 'uint8', possible loss of data
+         main.c
+         CCityDemo.cpp
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(145): warning C4244: 'initializing' : conversion from 'uint32' to 'float', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(148): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(149): warning C4244: '=' : conversion from 'uint32' to 'float', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(157): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(211): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(220): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(229): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(237): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>d:\projects\sandbox2.0\src\app_test\ccitydemo.cpp(144): warning C4101: 'i' : unreferenced local variable
+         camera.c
+         EShaderType.cpp
+         CShaderPipeline.cpp
+     1>d:\projects\ubertest\src\gfx\cshaderpipeline.cpp(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\projects\ubertest\src\gfx\cshaderpipeline.cpp(58): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>d:\projects\ubertest\src\gfx\cshaderpipeline.cpp(59): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>d:\projects\ubertest\src\gfx\cshaderpipeline.cpp(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\projects\ubertest\src\gfx\cshaderpipeline.cpp(168): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\projects\ubertest\src\gfx\cshaderpipeline.cpp(169): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+         gles.cpp
+         egl.cpp
+         CWindowWINAPI.cpp
+         CWindow.cpp
+     1>d:\projects\ubertest\src\gfx\cwindow.cpp(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\projects\ubertest\src\gfx\cwindow.cpp(53): warning C4172: returning address of local variable or temporary
+         CPointVertexBuffer.cpp
+         CGraphicsContext.cpp
+     1>d:\projects\ubertest\src\gfx\cgraphicscontext.cpp(85): warning C4101: 'eglContext' : unreferenced local variable
+         CDemo.cpp
+         CBuffer.cpp
+         CApplication.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\Debug\Sandbox2.0.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Redist\lib\gl /LIBPATH:..\..\Redist\lib\v7 Mathd.lib Logd.lib libEGL.lib libGLESv2.lib libMaliEmulator.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\Debug\Sandbox2.0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\Debug\Sandbox2.0.lib" /MACHINE:X86 /SAFESEH ..\bin\obj\Debug\CApplication.obj
+         ..\bin\obj\Debug\CBuffer.obj
+         ..\bin\obj\Debug\CDemo.obj
+         ..\bin\obj\Debug\CGraphicsContext.obj
+         ..\bin\obj\Debug\CPointVertexBuffer.obj
+         ..\bin\obj\Debug\CWindow.obj
+         ..\bin\obj\Debug\CWindowWINAPI.obj
+         ..\bin\obj\Debug\egl.obj
+         ..\bin\obj\Debug\gles.obj
+         ..\bin\obj\Debug\CShaderPipeline.obj
+         ..\bin\obj\Debug\EShaderType.obj
+         ..\bin\obj\Debug\camera.obj
+         ..\bin\obj\Debug\CCityDemo.obj
+         ..\bin\obj\Debug\main.obj
+         ..\bin\obj\Debug\model.obj
+         ..\bin\obj\Debug\pad.obj
+         ..\bin\obj\Debug\render.obj
+         ..\bin\obj\Debug\sphere_camera_control.obj
+         ..\bin\obj\Debug\buffer.obj
+     1>CApplication.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>Mathd.lib(math.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'Mathd.lib(math.obj)' or at 'D:\Projects\Sandbox2.0\bin\Debug\vc80.pdb'; linking object as if no debug info
+     1>Mathd.lib(matrix.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'Mathd.lib(matrix.obj)' or at 'D:\Projects\Sandbox2.0\bin\Debug\vc80.pdb'; linking object as if no debug info
+     1>Mathd.lib(vector.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'Mathd.lib(vector.obj)' or at 'D:\Projects\Sandbox2.0\bin\Debug\vc80.pdb'; linking object as if no debug info
+         Sandbox2.0.vcxproj -> D:\Projects\Sandbox2.0\build\..\bin\Debug\Sandbox2.0.exe
+     1>Done Building Project "D:\Projects\Sandbox2.0\build\Sandbox2.0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.07

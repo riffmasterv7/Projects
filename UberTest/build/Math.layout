@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\src\math\math.c" open="0" top="0" tabpos="0">
+		<Cursor position="2794" topLine="126" />
+	</File>
+	<File name="..\src\math\matrix.c" open="1" top="0" tabpos="2">
+		<Cursor position="2029" topLine="63" />
+	</File>
+	<File name="..\src\math_v7.h" open="0" top="0" tabpos="0">
+		<Cursor position="227" topLine="27" />
+	</File>
+	<File name="..\src\types_v7.h" open="0" top="0" tabpos="0">
+		<Cursor position="1439" topLine="38" />
+	</File>
+</CodeBlocks_layout_file>

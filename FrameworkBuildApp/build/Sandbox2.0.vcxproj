@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33E815CD-8D4E-434E-ADC5-CAECD7B32FA6}</ProjectGuid>
+    <RootNamespace>Sandbox2.0</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\bin\$(Configuration)\</OutDir>
+    <IntDir>..\bin\obj\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\bin\$(Configuration)\</OutDir>
+    <IntDir>..\bin\obj\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\..\Redist\include\v7;..\..\Redist\include\gl;..\..\UberTest\src\gfx;..\..\Sandbox2.0\src\app_test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_APP_TEST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Mathd.lib;Logd.lib;libEGL.lib;libGLESv2.lib;libMaliEmulator.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Redist\lib\gl;..\..\Redist\lib\v7;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\src;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\UberTest\src\gfx\CApplication.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\CBuffer.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\CDemo.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\CGraphicsContext.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\CPointVertexBuffer.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\CWindow.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\CWindowWINAPI.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\egl.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\gles.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\CShaderPipeline.cpp" />
+    <ClCompile Include="..\..\UberTest\src\gfx\EShaderType.cpp" />
+    <ClCompile Include="..\src\app_test\camera.c" />
+    <ClCompile Include="..\src\app_test\CCityDemo.cpp" />
+    <ClCompile Include="..\src\app_test\main.c" />
+    <ClCompile Include="..\src\app_test\model.c" />
+    <ClCompile Include="..\src\app_test\pad.c" />
+    <ClCompile Include="..\src\app_test\render.cpp" />
+    <ClCompile Include="..\src\app_test\sphere_camera_control.c" />
+    <ClCompile Include="..\..\UberTest\src\gfx\buffer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\UberTest\src\gfx\CApplication.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\CBuffer.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\CDemo.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\CGraphicsContext.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\CPointVertexBuffer.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\CWindow.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\CWindowWINAPI.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\egl.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\gles.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\CShaderPipeline.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\EShaderType.h" />
+    <ClInclude Include="..\src\app_test\camera.h" />
+    <ClInclude Include="..\src\app_test\CCityDemo.h" />
+    <ClInclude Include="..\src\app_test\model.h" />
+    <ClInclude Include="..\src\app_test\pad.h" />
+    <ClInclude Include="..\src\app_test\render.h" />
+    <ClInclude Include="..\src\app_test\sphere_camera_control.h" />
+    <ClInclude Include="..\..\UberTest\src\gfx\buffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\data\box.frag" />
+    <None Include="..\bin\data\box.geom" />
+    <None Include="..\bin\data\box.vert" />
+    <None Include="..\bin\data\fxaa.frag" />
+    <None Include="..\bin\data\fxaa.vert" />
+    <None Include="..\bin\data\p2f_screen_es2.frag" />
+    <None Include="..\bin\data\p2f_screen_es2.vert" />
+    <None Include="..\bin\data\p2f_t2f_screen_es2.frag" />
+    <None Include="..\bin\data\p2f_t2f_screen_es2.vert" />
+    <None Include="..\bin\data\p3f_c4b_es2.frag" />
+    <None Include="..\bin\data\p3f_c4b_es2.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

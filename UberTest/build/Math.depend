@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1301595560 source:w:\projects\ubertest\src\math\math.c
+	<math.h>
+	"../math_v7.h"
+
+1312130740 w:\projects\ubertest\src\math_v7.h
+	"types_v7.h"
+	<xmmintrin.h>
+	<emmintrin.h>
+
+1301595560 w:\projects\ubertest\src\types_v7.h
+
+1301595560 source:w:\projects\ubertest\src\math\matrix.c
+	<memory.h>
+	"../math_v7.h"
+	<xmmintrin.h>
+	<emmintrin.h>
+
+1301595560 source:w:\projects\ubertest\src\math\vector.c
+	"../math_v7.h"
+	<xmmintrin.h>
+	<emmintrin.h>
+

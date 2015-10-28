@@ -1,0 +1,25 @@
+﻿Build started 22.06.2015 22:07:27.
+     1>Project "D:\Projects\MicroCityTransparency\build\MicroCityTransparency.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\include /I..\..\Redist\include\v7 /I..\..\Redist\include\ext /I..\..\UberTest\src\gfx /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _APP_TEST /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\bin\obj\Debug\\" /Fd"..\bin\obj\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\UberTest\src\gfx\win32\gfx_win32_gles2.c
+         gfx_win32_gles2.c
+     1>d:\projects\ubertest\src\gfx\win32\gfx_win32_gles2.c(141): warning C4013: 'printf' undefined; assuming extern returning int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\Debug\MicroCityTransparency.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Redist\lib\v7 Mathd.lib Logd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\Debug\MicroCityTransparency.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\Debug\MicroCityTransparency.lib" /MACHINE:X86 /SAFESEH ..\bin\obj\Debug\camera.obj
+         ..\bin\obj\Debug\main.obj
+         ..\bin\obj\Debug\model.obj
+         ..\bin\obj\Debug\pad.obj
+         ..\bin\obj\Debug\render.obj
+         ..\bin\obj\Debug\sphere_camera_control.obj
+         ..\bin\obj\Debug\test.obj
+         ..\bin\obj\Debug\buffer.obj
+         ..\bin\obj\Debug\gfx.obj
+         ..\bin\obj\Debug\shader.obj
+         ..\bin\obj\Debug\gfx_win32_gl.obj
+         ..\bin\obj\Debug\gfx_win32_gles2.obj
+         MicroCityTransparency.vcxproj -> D:\Projects\MicroCityTransparency\build\..\bin\Debug\MicroCityTransparency.exe
+     1>Done Building Project "D:\Projects\MicroCityTransparency\build\MicroCityTransparency.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.68
